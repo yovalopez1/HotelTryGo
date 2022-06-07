@@ -1,0 +1,22 @@
+.menu{
+    background-color: transparent;
+    transition: 1s;
+}
+.menu2{
+    background-color: black;
+    transition: 1.5s;
+}
+#opciones{
+    position: fixed;
+    right: 500px;
+}
+#singIn{
+    position: fixed;
+    right: 100px;
+    top: 1.5%;
+}
+#singUp{
+    position: fixed;
+    right: 20px;
+    top: 1.5%;
+}

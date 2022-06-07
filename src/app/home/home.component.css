@@ -1,0 +1,19 @@
+#banner{
+    background-image: url('../../assets/img/TryGo2.jfif');
+    background-size: cover;
+    background-position: top center;
+    padding: 20% 2% 40% 2%;
+    position: relative;
+    z-index: 1;
+}
+#banner::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.3;
+    z-index: -1;
+}
